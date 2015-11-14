@@ -1,0 +1,38 @@
+"3.10.1 (created: 2015/08/25 00:41:59)
+
+highlight Bell border: 0 none; background-color: #393939;
+highlight CmdLine background: #393939; color: #a09f93; font-size: 9pt;
+highlight CompDesc color: #c6c6c6; width: 50%; font-size: 9pt;
+highlight CompItem[selected] background: #747369; color: #a09f93;
+highlight CompResult width: 45%; overflow: hidden;font-size: 10pt; font-family: monospace; font-weight: normal;
+highlight CompTitle color: #a09f93; background: #393939; font-weight: bold;
+highlight CompTitle>* padding: 0 .5ex;
+highlight ErrorMsg color: #f2f0ec; background: #f2777a; font-weight: bold;
+highlight Filter font-weight: bold;color: #a09f93; background: #cc9966;
+highlight FrameIndicator background-color: #393939; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
+highlight Function color: #99cc99; background: #393939;
+highlight Hint font-family: Sans; font-size: 10px; font-weight: bold; color: white; background-color: rgba(0, 0, 0, 0.3); border: solid 1px LightGray;
+highlight HintActive background: #6699cc; color: #f6e9e9;
+highlight HintElem background-color: #393939; color: #f6e9e9;
+highlight Indicator background-color: #2d2d2d; color: #cc99cc;
+highlight InfoMsg color: #a09f93; background: #393939;
+highlight LineNr color: #a09f93; background: #393939;
+highlight Message color #000000; background: #ffffff; white-space: normal; min-width: 100%; padding-left: 2em; text-indent: -2em; display: block;
+highlight ModeMsg color: #a09f93; background: #393939; "CmdLine when Not in Use
+highlight MoreMsg color: #a09f93; background: #393939;
+highlight NonText color: #66cccc; min-height: 16px; padding-left: 2px;
+highlight Normal color: #a09f93; background: #393939;
+highlight Number color: #d27b53; background: #393939
+highlight PromptText color: #cc99cc; background: #2d2d2d; font-weight: bold;
+highlight Question color: #f2f0ec; background: #393939; font-weight: bold;
+highlight StatusLine color: #f2f0ec; background: #2d2d2d; "font-size: 8pt;
+highlight String color: #393939; background: #a09f93;
+highlight Tag color: #393939; background: #a09f93;
+highlight Title color: #393939; background: #a09f93; font-weight: bold;
+highlight URL text-decoration: none; color: #66cccc; background: inherit;
+highlight WarningMsg color: #f2777a; background: #393939;
+noremap k 10k
+noremap j 5j
+source! /home/benjib0t/.vimperatorrc.local
+
+" vim: set ft=vimperator:
